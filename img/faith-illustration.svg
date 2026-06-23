@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+  <title id="title">Open Bible illustration</title>
+  <desc id="desc">Warm illustration of an open Bible and light for the statement of faith section.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4d1015"/><stop offset="1" stop-color="#8e1d24"/></linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%"><stop offset="0" stop-color="#f8d995" stop-opacity=".9"/><stop offset="1" stop-color="#f8d995" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#210506" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="900" height="760" fill="url(#bg)"/>
+  <circle cx="450" cy="230" r="310" fill="url(#glow)"/>
+  <path d="M0 670c160-95 260-38 402-95s250-20 498-88v273H0Z" fill="#25090c" opacity=".34"/>
+  <g filter="url(#shadow)" transform="translate(450 430)">
+    <path d="M-290-80c128-58 224-36 290 27v230c-77-58-171-78-290-25Z" fill="#f8f0dc"/>
+    <path d="M290-80C162-138 66-116 0-53v230c77-58 171-78 290-25Z" fill="#fff9ec"/>
+    <path d="M0-53v230" fill="none" stroke="#d0ae72" stroke-width="6"/>
+    <g stroke="#c9a56d" stroke-width="5" stroke-linecap="round" opacity=".8">
+      <path d="M-245-35h180M-245 5h185M-245 45h160M-245 85h180M-245 125h132"/>
+      <path d="M245-35H65M245 5H60M245 45H85M245 85H65M245 125H113"/>
+    </g>
+  </g>
+  <g transform="translate(450 160)" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".78">
+    <path d="M0-68v136M-68 0H68M-48-48 48 48M48-48-48 48"/>
+  </g>
+  <text x="450" y="705" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="36" font-weight="700">Faith that goes.</text>
+</svg>

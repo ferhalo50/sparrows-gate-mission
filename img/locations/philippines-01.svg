@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-label="Philippines mission photos coming soon">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b5667"/><stop offset="1" stop-color="#123640"/></linearGradient><pattern id="wave" width="60" height="32" patternUnits="userSpaceOnUse"><path d="M0 16q15-14 30 0t30 0" fill="none" stroke="#fff" stroke-width="3" opacity=".1"/></pattern></defs>
+  <rect width="1200" height="780" fill="url(#bg)"/><rect width="1200" height="780" fill="url(#wave)"/>
+  <g fill="none" stroke="#f2d69e" stroke-width="8" opacity=".9"><path d="M415 425c-57-10-91-45-91-90 0-48 39-87 87-87 45 0 82 31 87 73 5-42 42-73 87-73 48 0 87 39 87 87 0 45-34 80-91 90-34 6-61 28-83 58-22-30-49-52-83-58Z"/><path d="M498 302v136M430 370h136"/></g>
+  <text x="600" y="610" text-anchor="middle" fill="#fffdf9" font-family="Georgia, serif" font-size="48" font-weight="700">Philippines mission photos</text>
+  <text x="600" y="660" text-anchor="middle" fill="#f2d69e" font-family="Arial, sans-serif" font-size="23" letter-spacing="4">COMING SOON</text>
+</svg>
