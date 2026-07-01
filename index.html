@@ -23,7 +23,7 @@
 
   <div class="announcement-bar">
     <div class="container announcement-bar__inner">
-      <span data-i18n="announcement">For over 35 years, going in His name.</span>
+      <span data-i18n="announcement">Serving poor children for more than 40 years.</span>
       <a href="mailto:sparrowsgm@hotmail.com">sparrowsgm@hotmail.com</a>
     </div>
   </div>
@@ -64,13 +64,17 @@
         <a class="nav-link" href="#training" data-i18n="navTraining">Training</a>
         <a class="nav-link" href="#bible" data-i18n="navBible">Bible</a>
         <a class="nav-link" href="#contact" data-i18n="navContact">Contact</a>
-        <a
-          class="nav-support nav-support--donate"
-          href="https://www.paypal.com/donate?token=sFjpVkHQQrBLkVTfuVabYNrk2vrzlnLvXfgfaEH5wg10OPwyWhdakExZrhUoVdKkJK4eggF6eZyOWGUK"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="navSupport"
-        >Donate</a>
+        <button
+          class="nav-support nav-support--unavailable"
+          type="button"
+          disabled
+          aria-disabled="true"
+          data-i18n="navDonationUnavailable"
+          data-i18n-title="navDonationUnavailableHint"
+          data-i18n-aria-label="navDonationUnavailableHint"
+          title="Donations are currently unavailable."
+          aria-label="Donations are currently unavailable."
+        >Donations unavailable</button>
       </nav>
     </div>
   </header>
@@ -84,7 +88,7 @@
       <div class="container hero__grid">
         <div class="hero__content reveal">
           <p class="eyebrow"><span></span><b data-i18n="heroEyebrow">GOING IN HIS NAME</b></p>
-          <h1 data-i18n-html="heroTitle">Love children.<br /><em>Build futures.</em></h1>
+          <h1 data-i18n-html="heroTitle">Loving children.<br /><em>Building futures!</em></h1>
           <p class="hero__lead" data-i18n="heroLead">We go in His name to love and teach children to know, love and serve Jesus.</p>
 
           <div class="hero__actions">
@@ -94,8 +98,8 @@
 
           <div class="hero__proof" aria-label="Mission highlights">
             <div>
-              <strong>35+</strong>
-              <span data-i18n="proofYears">years of faithful service</span>
+              <strong>40+</strong>
+              <span data-i18n="proofYears">Serving poor children for more than 40 years</span>
             </div>
             <div>
               <strong>4</strong>
@@ -179,7 +183,7 @@
           <p class="eyebrow eyebrow--dark"><span></span><b data-i18n="missionEyebrow">OUR MISSION</b></p>
           <h2 data-i18n="missionTitle">Going in His name.</h2>
           <p data-i18n="missionP1">Two-thirds of God’s name is GO, and every commanding moment in history is connected to the word GO. God’s only Son was a missionary. He left a secure, heavenly home to GO to another world and culture to share the Good News with us.</p>
-          <p data-i18n="missionP2">The word GO was so vital that Jesus himself came back from the grave to remind us to “GO into all the world and share the Gospel. GO teach all nations.” For over 35 years, in literal obedience to His command, we have gone with one goal in mind.</p>
+          <p data-i18n="missionP2">The word GO was so vital that Jesus himself came back from the grave to remind us to “GO into all the world and share the Gospel. GO teach all nations.” For more than 40 years, in literal obedience to His command, we have gone with one goal in mind.</p>
           <p class="mission__statement" data-i18n="missionStatement">Our relentless aim is to love and teach children to know, love and serve Jesus.</p>
         </div>
 
@@ -241,11 +245,11 @@
               <img src="img/leadership/leader-01.jpg" data-zoomable data-zoom-group="leadership" data-fallback="img/placeholder-photo.svg" onerror="this.onerror=null;this.src=this.dataset.fallback;" data-i18n-alt="leaderPhoto1" alt="Leadership member one" loading="lazy" />
             </div>
             <div class="person-card__body">
-              <span class="person-card__role" data-i18n="leaderRole1">Leadership Member</span>
+              <span class="person-card__role" data-i18n="leaderRole1">Founders</span>
               <h3 data-i18n="leaderName1">DEAN and ALBA TINNEY</h3>
-              <p data-i18n="leaderBio1" data-read-more data-read-more-min="260">
-                Our Sparrows Gate Mission goal is that homeless children and single destitute moms and their kids in Mexico, Belize, Amazon and the Philippines, come to know, love and serve Jesus.James 1:27 says that true religion is caring for orphans and widows and we have done our best to love and care for them with schools, orphanages and homes for single destitute moms and their children for more than 3 decades.The words of Psalm 67:2 are a constant reminder of our passionate plea. “Send us around the world with the news of your saving power and your eternal plan for all mankind.”
-                “Most people think that the poorest child is the one without food, shelter, clothing or limbs; but the poorest child is the one without hope, without love.Knowing that a destitute, unloved child is waiting for someone to share the love of Jesus is reason enough for us to GO to the regions beyond.”
+              <p class="person-card__reading" data-read-more data-read-more-min="390">
+                <span class="person-card__quote-intro" data-i18n="leaderQuoteIntro1">Words from Dean and Alba.</span>
+                <em class="person-card__quote" data-i18n="leaderQuote1">Our goal at Sparrows Gate Mission is that homeless children and single, destitute moms and their children in Mexico, Belize, the Amazon and the Philippines will come to know, love and serve Jesus.</em>
               </p>
             </div>
           </article>
@@ -257,9 +261,11 @@
             <div class="person-card__body">
               <span class="person-card__role" data-i18n="leaderRole2">Leadership Member</span>
               <h3>CHRIS DAVIS</h3>
-              <p data-i18n="leaderBio2" data-read-more data-read-more-min="260">
-                Chris Davis is Executive Administrator of Sparrows Gate. His years of business experience as a district manager of a Procter and Gamble subsidiary is a great benefit to Sparrows Gate. Over the years he has brought many youth groups to Sparrows Gate in Mexico to help with ministry, projects and building efforts and provides monthly financial support. Mission founder Dean Tinney, consults with Mr. Davis on many issues related to operations and funding in Mexico, Belize and Philippines.
-                “For many years now I have been bringing youth groups from Salem, Oregon to serve the poor children of Baja at Sparrows Gate Mission’s children’s home and schools. We go to give but always come back with more than we gave. The verse, ‘Give and it shall be given unto you,’ comes to mind. Our young people agree. Giving our time and talent and even a cup of cold water to the poor children is rewarding beyond belief.”</p>
+              <p class="person-card__reading" data-read-more data-read-more-min="390">
+                <span class="person-card__description" data-i18n="leaderBio2">Chris Davis is Executive Administrator of Sparrows Gate.</span>
+                <span class="person-card__quote-intro" data-i18n="leaderQuoteIntro2">Words from Chris Davis.</span>
+                <em class="person-card__quote" data-i18n="leaderQuote2">“For many years now I have been bringing youth groups from Salem, Oregon, to serve poor children in Baja.”</em>
+              </p>
             </div>
           </article>
 
@@ -270,48 +276,55 @@
             <div class="person-card__body">
               <span class="person-card__role" data-i18n="leaderRole3">Leadership Member</span>
               <h3>BOBBI LUCAS</h3>
-              <p data-i18n="leaderBio3" data-read-more data-read-more-min="260">My husband and I met Dean and Alba almost 40 years ago at a church in San Diego.  Soon after that meeting we began to go down to support their mission in Tijuana and then In Las Palmas.  They have never waivered on their mission of helping, feeding and educating as many poor children as they possibly could.  Sparrows Gate is exemplary when it comes to doing just that. Dean and Alba Tinney have the faith and integrity to follow through to see children and even families succeed.  They focus on excellence in every way.  This is why being asked to be a board member is not a difficult decision for me.</p>
+              <p class="person-card__reading" data-read-more data-read-more-min="350">
+                <span class="person-card__quote-intro" data-i18n="leaderQuoteIntro3">Words from Bobbi Lucas.</span>
+                <em class="person-card__quote" data-i18n="leaderQuote3">“My husband and I met Dean and Alba almost 40 years ago at a church in San Diego.”</em>
+              </p>
             </div>
           </article>
 
           <article class="person-card reveal">
             <div class="person-card__image">
-              <img src="img/leadership/leader-04.jpg" data-zoomable data-zoom-group="leadership" data-fallback="img/placeholder-photo.svg" onerror="this.onerror=null;this.src=this.dataset.fallback;" data-i18n-alt="leaderPhoto3" alt="Leadership member three" loading="lazy" />
+              <img src="img/leadership/leader-04.jpg" data-zoomable data-zoom-group="leadership" data-fallback="img/placeholder-photo.svg" onerror="this.onerror=null;this.src=this.dataset.fallback;" data-i18n-alt="leaderPhoto4" alt="Leadership member four" loading="lazy" />
             </div>
             <div class="person-card__body">
               <span class="person-card__role" data-i18n="leaderRole3">Leadership Member</span>
               <h3>MARIA MONTES</h3>
-              <p data-i18n="leaderBio4" data-read-more data-read-more-min="260">
-                Maria’s previous ministry experience includes a lifetime of service in a variety of outreach and discipleship roles. Maria has provided counseling and support to individuals and families within the communities surrounding the church. She has also served in hotel ministry, coordinating volunteer groups to provide hot breakfasts and lead weekend worship services for hotel residents. Maria’s service includes mission trips to orphanages in Tijuana, ministry to youth in correctional facilities, and homeless shelter outreach in Los Angeles, where she helped provide clothing, food, and Bibles to those in need. Maria is also actively involved in children’s and youth ministry and teaching Sunday school classes for students ranging from kindergarten through high school.
-                “I’m honored to have accepted a position as a Board member of Sparrows Gate. I truly believe in its mission to reach children for God’s kingdom. It reflects Gods heart that children come to know God early in life so they can flourish,and be enriched through the knowledge and love of Christ. In turn, they will bring and draw others to our Abba father.”</p>
+              <p class="person-card__reading" data-read-more data-read-more-min="390">
+                <span class="person-card__description" data-i18n="leaderBio4">Maria’s previous ministry experience includes a lifetime of service in outreach and discipleship.</span>
+                <span class="person-card__quote-intro" data-i18n="leaderQuoteIntro4">Words from Maria Montes.</span>
+                <em class="person-card__quote" data-i18n="leaderQuote4">“I’m honored to have accepted a position as a board member of Sparrows Gate.”</em>
+              </p>
             </div>
           </article>
 
           <article class="person-card reveal">
             <div class="person-card__image">
-              <img src="img/leadership/leader-05.jpg" data-zoomable data-zoom-group="leadership" data-fallback="img/placeholder-photo.svg" onerror="this.onerror=null;this.src=this.dataset.fallback;" data-i18n-alt="leaderPhoto3" alt="Leadership member three" loading="lazy" />
+              <img src="img/leadership/leader-05.jpg" data-zoomable data-zoom-group="leadership" data-fallback="img/placeholder-photo.svg" onerror="this.onerror=null;this.src=this.dataset.fallback;" data-i18n-alt="leaderPhoto5" alt="Leadership member five" loading="lazy" />
             </div>
             <div class="person-card__body">
               <span class="person-card__role" data-i18n="leaderRole3">Leadership Member</span>
               <h3>LEE WADELL</h3>
-              <p data-i18n="leaderBio5" data-read-more data-read-more-min="260">
-                Lee’s walk with the Lord began in 1971 when he was 23. Lee has been married for 52 years and has 2 children and 3 granddaughters. Lee taught high school math and counseled in public and private schools for 39 years. Lee’s missions experience includes many short term trips to Mexico, Venezuela, and the Philippines. I also served full time with Campus Crusade in Thailand for 4 years.
-                “I have been involved with Sparrow’s Gate ministries since the late 1980s when Dean and Alba began a small children’s home outside of Tijuana at a former pig farm. Since then I have continued to pray and support the work as much as possible. Over the years, the time and circumstances were never right for me to join the board, but now I think is a good time to join the work as a board member.”</p>
+              <p class="person-card__reading" data-read-more data-read-more-min="350">
+                <span class="person-card__description" data-i18n="leaderBio5">Lee’s walk with the Lord began in 1971.</span>
+                <span class="person-card__quote-intro" data-i18n="leaderQuoteIntro5">Words from Lee Wadell.</span>
+                <em class="person-card__quote" data-i18n="leaderQuote5">“I have been involved with Sparrow’s Gate ministries since the late 1980s.”</em>
+              </p>
             </div>
           </article>
 
           <article class="person-card reveal">
             <div class="person-card__image">
-              <img src="img/leadership/leader-06.jpg" data-zoomable data-zoom-group="leadership" data-fallback="img/placeholder-photo.svg" onerror="this.onerror=null;this.src=this.dataset.fallback;" data-i18n-alt="leaderPhoto3" alt="Leadership member three" loading="lazy" />
+              <img src="img/leadership/leader-06.jpg" data-zoomable data-zoom-group="leadership" data-fallback="img/placeholder-photo.svg" onerror="this.onerror=null;this.src=this.dataset.fallback;" data-i18n-alt="leaderPhoto6" alt="Leadership member six" loading="lazy" />
             </div>
             <div class="person-card__body">
               <span class="person-card__role" data-i18n="leaderRole3">Leadership Member</span>
               <h3>KEITH COWELL</h3>
-              <p data-i18n="leaderBio6" data-read-more data-read-more-min="260">
-                Keith found a relationship with Jesus that has lasted a lifetime and gets better day by day, in July of 1973 (while serving in the USMC).
-                Keith and Leilani have been married since Jan 1974. They have 3 sons who are all following the Lord, as do our 3 daughters-in-law and all 7 of our grandchildren.
-                Keith spent his working years in the swimming pool business; servicing, repairing and building. Keith’s son took over the business in 2021.
-                “It has been a pleasure and a learning experience to watch God at work in Dean and Alba over the years. They have never lost their exuberance or desire to serve the young people in Mexico, Belize, Philippines and South America.I feel honored to be a part of the Missions Board for Sparrows Gate, and as God directs, will do what I can to be of service to Sparrows Gate.”</p>
+              <p class="person-card__reading" data-read-more data-read-more-min="350">
+                <span class="person-card__description" data-i18n="leaderBio6">Keith began a relationship with Jesus in July 1973.</span>
+                <span class="person-card__quote-intro" data-i18n="leaderQuoteIntro6">Words from Keith Cowell.</span>
+                <em class="person-card__quote" data-i18n="leaderQuote6">“It has been a pleasure and a learning experience to watch God at work in Dean and Alba over the years.”</em>
+              </p>
             </div>
           </article>
         </div>
@@ -334,7 +347,7 @@
               <p class="history__story-label" data-i18n="historyStoryLabel">THE STORY</p>
             </div>
             <p class="history__story-copy" data-i18n="historyLead" data-read-more data-read-more-min="650">
-              In his teens, Dean Tinney felt God’s leading to share the Gospel with the poor, but he left the Church and fellowship with Christ for a business career. For the next 35 years, he was a driven corporate executive, entrepreneur and part-time professor of marketing at Cal State University, Fullerton.
+              In his teens, Dean Tinney felt God’s leading to share the Gospel with the poor, but he left the Church and fellowship with Christ for a business career. For many years, he was a driven corporate executive, entrepreneur and part-time professor of marketing at Cal State University, Fullerton.
             </p>
           </div>
         </div>
@@ -370,7 +383,7 @@
               <img src="img/history/history-02.jpg" data-zoomable data-zoom-group="history" data-fallback="img/placeholder-photo.svg" onerror="this.onerror=null;this.src=this.dataset.fallback;" data-i18n-alt="historyPhoto2" alt="Mission history moment two" loading="lazy" />
               <figcaption>
                 <span data-i18n="historyPhotoYear2">1989</span>
-                <strong data-i18n="historyPhotoCaption2">Reaching the Amazon.</strong>
+                <strong data-i18n="historyPhotoCaption2">Reaching the Amazon Yagua Tribe.</strong>
               </figcaption>
             </figure>
 
@@ -515,7 +528,7 @@ After this initial time of training you may apply for an extended term of servic
           <button class="training-gallery__control training-gallery__control--next" type="button" data-training-next aria-label="Next training photo">›</button>
           <div class="training-gallery__dots" data-training-dots aria-label="Training gallery"></div>
 
-          <div class="training__badge"><span>35+</span><small data-i18n="trainingBadge">years of going</small></div>
+          <div class="training__badge"><span>40+</span><small data-i18n="trainingBadge">years serving poor children</small></div>
         </div>
       </div>
     </section>
@@ -556,59 +569,12 @@ After this initial time of training you may apply for an extended term of servic
       </div>
     </section>
 
-    <!-- DONATE -->
-    <section class="donate section-anchor" id="donate" data-nav-target="#contact">
-      <div class="container">
-        <div class="donate__shell reveal">
-          <div class="donate__copy">
-            <p class="eyebrow donate__eyebrow"><span></span><b data-i18n="donateEyebrow">GIVE WITH PURPOSE</b></p>
-            <h2 data-i18n="donateTitle">Your gift can open a door.</h2>
-            <p class="donate__lead" data-i18n="donateText">Every donation helps bring care, learning and the love of Jesus to children and families.</p>
-
-            <ul class="donate__trust-list" aria-label="Donation details">
-              <li>
-                <span class="donate__trust-icon" aria-hidden="true">✓</span>
-                <span data-i18n="donateTrust1">Secure PayPal checkout</span>
-              </li>
-              <li>
-                <span class="donate__trust-icon" aria-hidden="true">✓</span>
-                <span data-i18n="donateTrust2">PayPal or card options where available</span>
-              </li>
-              <li>
-                <span class="donate__trust-icon" aria-hidden="true">$</span>
-                <span data-i18n="donateTrust3">Donations in U.S. dollars</span>
-              </li>
-            </ul>
-          </div>
-
-          <aside class="donate__checkout" aria-label="Donate with PayPal">
-            <div class="donate__checkout-top">
-              <span class="donate__paypal" aria-label="PayPal">Pay<span>Pal</span></span>
-              <span class="donate__currency">USD</span>
-            </div>
-            <p class="donate__checkout-label" data-i18n="donateCheckoutLabel">Sparrows Gate Mission</p>
-            <h3 data-i18n="donateCheckoutTitle">Make a donation</h3>
-            <a
-              class="button button--paypal donate__button"
-              href="https://www.paypal.com/donate?token=sFjpVkHQQrBLkVTfuVabYNrk2vrzlnLvXfgfaEH5wg10OPwyWhdakExZrhUoVdKkJK4eggF6eZyOWGUK"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-i18n-html="donateButton"
-            >Donate securely with PayPal <span>↗</span></a>
-            <p class="donate__note" data-i18n="donateNote">PayPal will show the available payment methods when you donate. Donation amounts are processed in USD.</p>
-            <a class="donate__email" href="mailto:sparrowsgm@hotmail.com?subject=Question%20about%20donating%20to%20Sparrows%20Gate%20Mission" data-i18n="donateEmail">Questions before giving? Email us.</a>
-          </aside>
-        </div>
-      </div>
-    </section>
-
     <!-- CONTACT -->
     <section class="contact section-anchor" id="contact" data-nav-target="#contact">
       <div class="container contact__grid">
         <div class="contact__content reveal">
           <p class="eyebrow eyebrow--dark"><span></span><b data-i18n="contactEyebrow">CONTACT</b></p>
           <h2 data-i18n="contactTitle">We would love to hear from you.</h2>
-          <p class="contact__lead" data-i18n="contactLead">For questions, partnerships or ways to support the mission, please contact us by email.</p>
 
           <div class="contact-details">
             <a class="contact-detail" href="mailto:sparrowsgm@hotmail.com">
